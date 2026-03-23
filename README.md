@@ -7,7 +7,8 @@ This project checks whether a given news text is fake or real using simple keywo
 - Detects fake news using common keywords  
 - Checks for emotional words  
 - Shows reasons for the result  
-- Simple and easy to use  
+- Simple and easy to use
+- Uses scoring mechanism for classification
 
 ## Requirements
 - Python 3 installed  
@@ -35,9 +36,13 @@ Input:
 Breaking shocking news!
 
 Output:
-Likely Fake News  
+Likely Real News (score=2)
 - Keyword detected: breaking  
-- Keyword detected: shocking  
+- Keyword detected: shocking
+
+## Methodology
+
+The system assigns a score based on detected features and classifies the news using a threshold.
 
 ## Author
 
