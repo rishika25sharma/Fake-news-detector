@@ -26,9 +26,9 @@ def detect_fake_news(text):
 
     # Final decision
     if score >= 3:
-        result = "⚠️ Likely Fake News"
+        result = "Likely Fake News"
     else:
-        result = "✅ Likely Real News"
+        result = "Likely Real News"
 
     return score, result, reasons
 
